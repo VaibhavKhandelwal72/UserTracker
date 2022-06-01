@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/username_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Hey User"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/usernumber_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Hey User"
+        android:layout_below="@id/username_tv"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/userlocation_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Location"
+        android:textAlignment="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_centerInParent="true"/>
+
+
+
+</RelativeLayout>
